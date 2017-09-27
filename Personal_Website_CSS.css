@@ -10,7 +10,6 @@ body {
     background-size: cover;
     font-size: 90%;
     font-family: Garamond, sans-serif;
-    background-size: cover;
     color: #000305;
     line-height: 1.5;
     text-align: left;
@@ -54,7 +53,14 @@ a:hover, a:active {
     display: inline-block;
     padding: 0px 20px;    
 }
- 
+
+.navigation {
+    padding: 0% 15%;        
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+}
+
 .navigation a:link, .navigation a:active {
     height: 20px;
     color: #ECE7E7;
@@ -68,11 +74,61 @@ a:hover, a:active {
     text-shadow: none;
 }
 
+.intro .divNav .navigation ul li a {
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+}
 
+.firstHeader h1 {
+    font-size: 40;
+}
 
+.firstHeader{
+    text-align: center;
+    padding: 5px 15px;
+}
 
+.firstHeader p {
+    font-size: 20;
+}
 
+.divInner {
+    line-height: 25px;
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+}
 
+.articleContent1 {
+    width: 35%;
+    float: right;
+}
+
+.articleContent2 {
+    width: 65%;
+    float: left;
+}
+
+.firstArticle {
+    background-color: #ECE7E7;
+    width: 30%;
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+    padding: 3% 5%;
+}
+
+.secondArticle {
+    background-color: #ECE7E7;
+    width: 61%;
+    float: right;
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+    margin-right: 3%;
+    padding: 3% 5%;
+}
 
 
 
