@@ -25,13 +25,22 @@ a {
     clear: both; 
 }
 
+a:link, a:visited {
+
+}
+    
+a:hover, a:active {
+
+}
+
 .divNav {
     background: rgba(6, 16, 16, 0.95);
     height: 40px;
 }
 
 .navigation {
-    padding: 0% 15%;
+    padding: 0% 15%;        
+    
 }
 
 .navigation ul b {
@@ -40,16 +49,26 @@ a {
 }
 
 .navigation ul li {
-    margin: 0px 20px;
     float: right;
     font-size: 15;
-    display: inline;
-    padding: 10px 20px;    
+    display: inline-block;
+    padding: 0px 20px;    
+}
+ 
+.navigation a:link, .navigation a:active {
+    height: 20px;
+    color: #ECE7E7;
+    display: inline-block;
+    padding: 10px 20px;
 }
 
-.divHeader {
-    
+.navigation a:hover, .navigation a:active,
+.navigation .active a:link, .navigation .active a:visited {
+    background-color: #DA3B64;
+    text-shadow: none;
 }
+
+
 
 
 
