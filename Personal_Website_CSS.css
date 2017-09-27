@@ -6,7 +6,7 @@ body {
     
 }
 .body {
-    background: lightgray;
+    background: url("Pictures/peaceful_and_cold_by_qauz-d5uoida.jpg") no-repeat 20%;
     background-size: cover;
     font-size: 90%;
     font-family: Garamond, sans-serif;
@@ -129,6 +129,21 @@ a:hover, a:active {
     margin-right: 3%;
     padding: 3% 5%;
 }
+
+.divFooter {
+    margin: 150px 0px;
+}
+
+.firstFooter {
+    background: rgba(6, 16, 16, 0.95);
+    height: 40px;
+}
+
+.firstFooter p {
+    padding: 10px 50px;
+    color: #ECE7E7;
+}
+
 
 
 
