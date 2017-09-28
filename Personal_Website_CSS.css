@@ -147,7 +147,7 @@ a:hover, a:active {
 }
 
 .divFooter {
-    margin: 230px 0px 0px 0px;
+    margin: 180px 0px 0px 0px;
 }
 
 .firstFooter {
@@ -160,7 +160,15 @@ a:hover, a:active {
     color: #ECE7E7;
 }
 
-
+.info {
+    background: gray;
+    background-size: cover;
+    font-size: 100%;
+    font-family: Garamond, sans-serif;
+    color: #000305;
+    line-height: 1.5;
+    text-align: left;
+}
 
 
 
