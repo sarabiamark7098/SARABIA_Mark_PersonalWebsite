@@ -147,7 +147,7 @@ a:hover, a:active {
 }
 
 .divFooter {
-    margin: 180px 0px 0px 0px;
+    margin: 140px 0px 0px 0px;
 }
 
 .firstFooter {
@@ -161,21 +161,49 @@ a:hover, a:active {
 }
 
 .info {
-    background: gray;
+    background: url("C:/Users/Mark Sarabia/projects/SARABIA_Mark_PersonalWebsite/Pictures/b91eeac91b1e86757e10094719fefc97.jpg") no-repeat 50%;
     background-size: cover;
     font-size: 100%;
     font-family: Garamond, sans-serif;
     color: #000305;
     line-height: 1.5;
     text-align: left;
+    
+}
+.info b {
+    padding-left: 40%;
+    font-size: 40;
+    color: #F82424;
+    
 }
 
+.infoSection {
+    padding: 10px;
+    padding-left: 20%;
+}
 
+.leftInfo {
+    text-align: left;
+    float: left;
+    margin: 0%;
+    padding: 10px;
+    width: 20%;
+    background-color: rgba(221, 221, 221, 0.70);
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+}
 
-
-
-
-
+.rightInfo {
+    text-align: left;
+    margin: 0%;
+    padding: 10px;
+    width: 50%;
+    background-color: rgba(221, 221, 221, 0.70);
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+}
 
 
 
