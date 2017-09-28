@@ -6,7 +6,7 @@ body {
     height: 100%;    
 }
 
-.body {
+.home {
     background: url("C:/Users/Mark Sarabia/projects/SARABIA_Mark_PersonalWebsite/Pictures/peaceful_and_cold_by_qauz-d5uoida-1.jpg") no-repeat 50%;
     background-size: cover;
     font-size: 100%;
@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 
-.intro {
+.homeSection {
     margin: 0 auto;
     clear: both; 
 }
@@ -80,7 +80,7 @@ a:hover, a:active {
     text-shadow: none;
 }
 
-.intro .divNav .navigation ul li a {
+.homeSection .divNav .navigation ul li a {
     border-radius: 5%;
     -moz-border-radius: 5%;
     -webkit-border-radius: 5%;
@@ -147,7 +147,7 @@ a:hover, a:active {
 }
 
 .divFooter {
-    margin: 230px 0px;
+    margin: 230px 0px 0px 0px;
 }
 
 .firstFooter {
