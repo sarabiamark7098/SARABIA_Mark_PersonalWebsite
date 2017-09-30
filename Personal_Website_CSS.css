@@ -7,7 +7,7 @@ body {
 }
 
 .home {
-    background: url("C:/Users/Mark Sarabia/projects/SARABIA_Mark_PersonalWebsite/Pictures/peaceful_and_cold_by_qauz-d5uoida-1.jpg") no-repeat 50%;
+    background: url("C:/Users/Mark Sarabia/projects/SARABIA_Mark_PersonalWebsite/Pictures/peaceful_and_cold_by_qauz-d5uoida-1.jpg") no-repeat;
     background-size: cover;
     font-size: 100%;
     font-family: Garamond, sans-serif;
@@ -92,7 +92,11 @@ a:hover, a:active {
 
 .firstHeader{
     text-align: center;
-    padding: 50px 25px 10px 25px;
+    padding: 5px 25px;
+}
+
+.divHome {
+    padding: 5% 0%;
 }
 
 .firstHeader p {
@@ -161,7 +165,7 @@ a:hover, a:active {
 }
 
 .info {
-    background: url("C:/Users/Mark Sarabia/projects/SARABIA_Mark_PersonalWebsite/Pictures/b91eeac91b1e86757e10094719fefc97.jpg") no-repeat 50%;
+    background: url("C:/Users/Mark Sarabia/projects/SARABIA_Mark_PersonalWebsite/Pictures/b91eeac91b1e86757e10094719fefc97.jpg") no-repeat;
     background-size: cover;
     font-size: 100%;
     font-family: Garamond, sans-serif;
@@ -170,6 +174,11 @@ a:hover, a:active {
     text-align: left;
     
 }
+
+.divInformation {
+    padding: 5% 0%;
+}
+
 .info b {
     padding-left: 40%;
     font-size: 40;
@@ -178,16 +187,15 @@ a:hover, a:active {
 }
 
 .infoSection {
-    padding: 10px;
-    padding-left: 20%;
+    padding: 25px;
+    margin-bottom: 60%;
 }
 
 .leftInfo {
-    text-align: left;
     float: left;
     margin: 0%;
     padding: 8px;
-    width: 20%;
+    width: auto;
     background-color: rgba(221, 221, 221, 0.80);
     border-radius: 5%;
     -moz-border-radius: 5%;
@@ -195,10 +203,11 @@ a:hover, a:active {
 }
 
 .rightInfo {
+    float: right;
     text-align: left;
     margin: 0%;
     padding: 5px;
-    width: 55%;
+    width: auto;
     background-color: rgba(221, 221, 221, 0.80);
     border-radius: 5%;
     -moz-border-radius: 5%;
@@ -206,15 +215,19 @@ a:hover, a:active {
 }
 
 .about {
-    background: url("C:/Users/Mark Sarabia/projects/SARABIA_Mark_PersonalWebsite/Pictures/b91eeac91b1e86757e10094719fefc97.jpg") no-repeat 50%;
+    background: url("C:/Users/Mark Sarabia/projects/SARABIA_Mark_PersonalWebsite/Pictures/b91eeac91b1e86757e10094719fefc97.jpg") no-repeat;
     background-size: cover;
     font-size: 100%;
     font-family: Garamond, sans-serif;
     color: #000305;
     line-height: 1.5;
     text-align: left;
-    
 }
+
+.divAbout {
+    padding: 5% 0%;
+}
+
 .about b {
     padding-left: 40%;
     font-size: 40;
@@ -222,16 +235,16 @@ a:hover, a:active {
 }
 
 .aboutSection {
-    padding: 10px;
-    padding-left: 20%;
+    padding: 25px;
+    margin-bottom: 50%;
 }
 
 .leftAbout {
-    text-align: left;
     float: left;
+    text-align: left;
     margin: 0%;
-    padding: 3px;
-    width: 20%;
+    padding: 5px;
+    width: 32%;
     background-color: rgba(221, 221, 221, 0.80);
     border-radius: 5%;
     -moz-border-radius: 5%;
@@ -239,10 +252,11 @@ a:hover, a:active {
 }
 
 .rightAbout {
+    float: right;
     text-align: left;
     margin: 0%;
-    padding: 3px;
-    width: 55%;
+    padding: 5px;
+    width: 65%;
     background-color: rgba(221, 221, 221, 0.80);
     border-radius: 5%;
     -moz-border-radius: 5%;
