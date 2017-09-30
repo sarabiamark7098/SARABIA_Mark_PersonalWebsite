@@ -43,17 +43,18 @@ a:hover, a:active {
     padding: 0% 15%;            
 }
 
-.navigation ul b {
+.divNav b {
+    float: right;
+    padding: 20px 20%;
+    float: left;
     font-size: 25;
     color: whitesmoke;
 }
 
 .navigation ul li {
-    float: right;
     font: bold;
     font-size: 15;
-    display: inline-block;
-    padding: 0px 20px;    
+    display: inline-block;  
 }
 
 .navigation {
@@ -64,6 +65,7 @@ a:hover, a:active {
 }
 
 .navigation ul li a {
+    float: right;
     color: whitesmoke;
 }
 
