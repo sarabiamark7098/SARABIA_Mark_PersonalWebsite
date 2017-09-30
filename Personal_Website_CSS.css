@@ -246,7 +246,25 @@ a {
     -webkit-border-radius: 5%;
 }
 
-.rightAbout {
+.righttopAbout {
+    padding-bottom: 40%;
+}
+
+
+
+.topRightAbout {
+    float: right;
+    text-align: left;
+    margin: 0%;
+    padding: 5px;
+    width: 65%;
+    background-color: rgba(117, 157, 236, 0.80);
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+}
+
+.bottomRightAbout {
     float: right;
     text-align: left;
     margin: 0%;
