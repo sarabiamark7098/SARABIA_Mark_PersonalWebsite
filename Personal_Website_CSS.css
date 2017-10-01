@@ -319,7 +319,22 @@ a {
     background-color: gainsboro;
 }
 
+.Message {
+    width: 120%;
+    margin: 10px 50px;
+}
 
+.divMessage {
+    text-align: center;
+    font-size: 15;
+}
+
+.Getmessage {
+    height: 40%;
+    background: #5F5C5C;
+    background: cover;
+    padding: 20px;
+}
 
 
 
