@@ -309,19 +309,22 @@ a {
 
 .outerLayercontact {
     float: left;
-    padding: 0px 5%;
-    
+    padding: 0px 0px 0px 5%;
+    width: 50%;
 }
 
 .innerLayercontact {
-    width: 180%;
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
     padding: 10px;
     background-color: gainsboro;
 }
 
 .Message {
-    width: 120%;
-    margin: 10px 50px;
+    float: right;
+    width: 30%;
+    margin-right: 5%;
 }
 
 .divMessage {
@@ -331,12 +334,16 @@ a {
 
 .Getmessage {
     height: 40%;
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
     background: #5F5C5C;
     background: cover;
-    padding: 20px;
+    padding: 5px;
 }
 
-
+.texts {
+}
 
 
 
