@@ -303,6 +303,21 @@ a {
     -webkit-border-radius: 5%;
 }
 
+.contact {
+    margin-top: 5%;
+}
+
+.outerLayercontact {
+    float: left;
+    padding: 0px 5%;
+    
+}
+
+.innerLayercontact {
+    width: 180%;
+    padding: 10px;
+    background-color: gainsboro;
+}
 
 
 
