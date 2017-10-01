@@ -112,13 +112,13 @@ a {
 }
 
 .articleContent1 {
-    padding-top: 20px;
+    padding-top: 0px;
     width: 35%;
     float: right;
 }
 
 .articleContent2 {
-    padding-top: 20px;
+    padding-top: 0px;
     width: 65%;
     float: left;
 }
@@ -144,11 +144,32 @@ a {
 }
 
 .bottom_content_section {
-    padding: 0% 10%;
+    margin: 0% 10%;
+    padding: 0px;
+}
+
+.html {
+    padding-top: 20px;
+    width: 50%;
+    float: left;
+}
+
+.css {
+    padding-top: 20px;
+    width: 50%;
+    float: right;
+}
+
+.div_html p {
+    margin: 0% 30%;
+}
+
+.div_css p {
+    margin: 0% 30%;
 }
 
 .divFooter {
-    margin: 180px 0px 0px 0px;
+    margin: 140px 0px 0px 0px;
 }
 
 .firstFooter {
@@ -159,6 +180,10 @@ a {
 .firstFooter p {
     padding: 10px 50px;
     color: #ECE7E7;
+}
+
+.section_footer {
+    margin-top: 30%;
 }
 
 .info {
