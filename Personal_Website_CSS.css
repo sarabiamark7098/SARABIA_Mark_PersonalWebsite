@@ -203,6 +203,21 @@ a {
 
 /* Information Page */
 
+.outerlayer_button {
+    margin-left: 100px;    
+}
+
+.innerlayer_button {
+}
+
+.innerlayer_button button{
+    background-color: lightgreen;
+    border-radius: 5%; 
+    margin: 0px 2px;
+    width: 150px;
+    padding: 10px;
+}
+
 .info {
     background: #CAC8C8 no-repeat;
     background-size: cover;
