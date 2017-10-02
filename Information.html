@@ -41,29 +41,29 @@
                                 <button onclick="My_Information_function" class="function_myinfo">
                                     My Information
                                 </button>
-                                <button onclick="Friends_function" class="function_friend">
+                                <button type="button" onclick="getElementById('My_Information_function')" class="function_friend">
                                     Friends
                                 </button>
-                                <button onclick="Groups_function" class="function_group">
+                                <button type="button" onclick="getElementById('Groups_function')" class="function_group">
                                     Groups
                                 </button>
-                                <button onclick="Goal_Motto_function" class="function_goalmotto">
+                                <button type="button" onclick="getElementById('Goal_Motto_function')" class="function_goalmotto">
                                     Goal and Motto
                                 </button>
-                                <button onclick="Address_function" class="function_address">
-                                    Address
-                                </button>
-                                <button onclick="Family_function" class="function_family">
+                                <button type="button" onclick="getElementById('Family_function')" class="function_family">
                                     Family
                                 </button>
-                                <button onclick="Recent_work_fuction" class"function_recentwork">
+                                <button type="button" onclick="getElementById('Address_function')" class="function_family">
+                                    Address
+                                </button>
+                                <button type="button" onclick="getElementById('Recent_work_fuction').setvisibility=visible;" class"function_recentwork">
                                     Recent Work
                                 </button>
                             </div>
                         </div>
                     </section>
                     
-                    <div class="My_Information_function">
+                    <div id="My_Information_function">
                         <center>
                             <header class="headerPersonal" >
                                 <h2>
@@ -75,21 +75,11 @@
                                         <p>
                                             NAME:<a> SARABIA, Mark Rezzel Tico</a><br>
                                             Age:<a> 19 </a> Gender:<a> Male </a><br>
-                                            Future Goal:<a> Travel Around the World! </a><br>
-                                            Goal:<a> To Graduate in College and be Better!</a><br>
-                                            Motto:<a> Mistakes are proof you are trying</a><br>
-                                            <a> An Expert in anything was once a Biginner</a><br>
-                                            <a> Do something today, that your future self will thank you for.</a><br>
-                                            Date of Birth:<a> 09/27/1998 </a>Place of Birth:<a> DAVAO CITY </a>Nationality:<a> FILIPINO </a><br>
-                                            Cellphone Number:<a> 09556957515 </a>Telephone Number:<a> N/A </a>
-                                        </p>
-                                        <p>
-                                            Mother's Name:<a> Zenaida T. Sarabia </a>Occupation:<a> Elementary School Teacher </a><br>
-                                            Contact Number:<a> 09488965929 </a>Telephone Number:<a> N/A </a>
-                                        </p>
-                                        <p>
-                                            Father's Name:<a> Rene F. Sarabia </a>Occupation:<a> High School Teacher </a><br>
-                                            Contact Number:<a> 09208449983 </a>Telephone Number:<a> N/A </a>
+                                            Date of Birth:<a> 09/27/1998 </a><br>
+                                            Place of Birth:<a> DAVAO CITY </a><br>
+                                            Nationality:<a> FILIPINO </a><br>
+                                            Cellphone Number:<a> 09556957515 </a><br>
+                                            Telephone Number:<a> N/A </a>
                                         </p>
                                     </center>
                                 </content>
@@ -98,7 +88,7 @@
                         </center>
                     </div>
 
-                    <div class="Friends_function">
+                    <div id="Friends_function">
                         <center>
                             <div class="topFriends">
                                 <header class="headerFriends" style="text-decoration: none;">
@@ -146,7 +136,7 @@
                         </center>
                     </div>
 
-                    <div class="Groups_function">
+                    <div id="Groups_function">
                         <center>
                             <div class="bottomGroup" style="text-decoration: none;">
                                 <header class="headerGroup">
@@ -184,6 +174,9 @@
                                         <li>
                                             <a href="">Davao IT</a>
                                         </li>
+                                        <li>
+                                            <a href="">...</a>
+                                        </li>
                                     </ul>
                                 </content>
                             </div>
@@ -192,7 +185,7 @@
                         </center>
                     </div>
 
-                    <div class=Goal_Motto_function>
+                    <div id="Goal_Motto_function">
                         <center>
                             <header class="headerGoal" >
                             <h2>
@@ -202,87 +195,34 @@
                             <content class="contentgoal">
                                 <center>
                                     <p>
-                                        NAME:<a> SARABIA, Mark Rezzel Tico</a><br>
-                                        Age:<a> 19 </a> Gender:<a> Male </a><br>
-                                        Future Goal:<a> Travel Around the World! </a><br>
-                                        Goal:<a> To Graduate in College and be Better!</a><br>
-                                        Motto:<a> Mistakes are proof you are trying</a><br>
+                                        Future Goal: <br>
+                                            <a> Travel Around the World! </a><br>
+                                        Goal: <br>
+                                            <a> To Graduate in College and be Better!</a><br>
+                                        Motto: <br>
+                                        <a> Mistakes are proof you are trying</a><br>
                                         <a> An Expert in anything was once a Biginner</a><br>
-                                        <a> Do something today, that your future self will thank you for.</a><br>
-                                        Date of Birth:<a> 09/27/1998 </a>Place of Birth:<a> DAVAO CITY </a>Nationality:<a> FILIPINO </a><br>
-                                        Cellphone Number:<a> 09556957515 </a>Telephone Number:<a> N/A </a>
-                                    </p>
-                                    <p>
-                                        Mother's Name:<a> Zenaida T. Sarabia </a>Occupation:<a> Elementary School Teacher </a><br>
-                                        Contact Number:<a> 09488965929 </a>Telephone Number:<a> N/A </a>
-                                    </p>
-                                    <p>
-                                        Father's Name:<a> Rene F. Sarabia </a>Occupation:<a> High School Teacher </a><br>
-                                        Contact Number:<a> 09208449983 </a>Telephone Number:<a> N/A </a>
+                                        <a> Do something today, that your future self will thank you for.</a>
                                     </p>
                                 </center>
                             </content>
                         </center>
                     </div>
 
-                    <div class=Address_function>
-                        <center>
-                            <header class="headeraddress" >
-                                <h2>
-                                    Address
-                                </h2>
-                                </header>
-                                <content class="contentaddress">
-                                <center>
-                                    <p>
-                                        NAME:<a> SARABIA, Mark Rezzel Tico</a><br>
-                                        Age:<a> 19 </a> Gender:<a> Male </a><br>
-                                        Future Goal:<a> Travel Around the World! </a><br>
-                                        Goal:<a> To Graduate in College and be Better!</a><br>
-                                        Motto:<a> Mistakes are proof you are trying</a><br>
-                                        <a> An Expert in anything was once a Biginner</a><br>
-                                        <a> Do something today, that your future self will thank you for.</a><br>
-                                        Date of Birth:<a> 09/27/1998 </a>Place of Birth:<a> DAVAO CITY </a>Nationality:<a> FILIPINO </a><br>
-                                        Cellphone Number:<a> 09556957515 </a>Telephone Number:<a> N/A </a>
-                                    </p>
-                                    <p>
-                                        Mother's Name:<a> Zenaida T. Sarabia </a>Occupation:<a> Elementary School Teacher </a><br>
-                                        Contact Number:<a> 09488965929 </a>Telephone Number:<a> N/A </a>
-                                    </p>
-                                    <p>
-                                        Father's Name:<a> Rene F. Sarabia </a>Occupation:<a> High School Teacher </a><br>
-                                        Contact Number:<a> 09208449983 </a>Telephone Number:<a> N/A </a>
-                                    </p>
-                                </center>
-                            </content>
-                        </center>
-                    </div>
-
-                    <div class=Family_function>
+                    <div id="Family_function">
                         <center>
                             <header class="headerfamily" >
                                 <h2>
                                     Family
                                 </h2>
-                                </header>
-                                <content class="contentfamily">
-                                    <center>
-                                        <p>
-                                        NAME:<a> SARABIA, Mark Rezzel Tico</a><br>
-                                        Age:<a> 19 </a> Gender:<a> Male </a><br>
-                                        Future Goal:<a> Travel Around the World! </a><br>
-                                        Goal:<a> To Graduate in College and be Better!</a><br>
-                                        Motto:<a> Mistakes are proof you are trying</a><br>
-                                        <a> An Expert in anything was once a Biginner</a><br>
-                                        <a> Do something today, that your future self will thank you for.</a><br>
-                                        Date of Birth:<a> 09/27/1998 </a>Place of Birth:<a> DAVAO CITY </a>Nationality:<a> FILIPINO </a><br>
-                                        Cellphone Number:<a> 09556957515 </a>Telephone Number:<a> N/A </a>
-                                    </p>
+                            </header>
+                            <content class="contentfamily">
+                                <center>
                                     <p>
                                         Mother's Name:<a> Zenaida T. Sarabia </a>Occupation:<a> Elementary School Teacher </a><br>
                                         Contact Number:<a> 09488965929 </a>Telephone Number:<a> N/A </a>
                                     </p>
-                                        <p>
+                                    <p>
                                         Father's Name:<a> Rene F. Sarabia </a>Occupation:<a> High School Teacher </a><br>
                                         Contact Number:<a> 09208449983 </a>Telephone Number:<a> N/A </a>
                                     </p>
@@ -291,7 +231,41 @@
                         </center>
                     </div>
 
-                    <div class=Recent_work_fuction>
+                    <div id="Address_function">
+                        <center>
+                            <div class="bottomAddress">
+                                <header class="headerAddress">
+                                    <h2>
+                                        Address Information
+                                    </h2>
+                                </header>
+                                <content class="contentAddress">
+                                    <p>
+                                        Present Address: 
+                                    </p>
+                                    <center>
+                                        <p>
+                                            KM. Number:<a> KM. 12 </a>Street:<a> Narra Street </a>Postal Code:<a> 8000 </a><br>
+                                            Barangay:<a> Catalunan Pequeño </a>City/Town/Municipality:<a> Davao City </a>Province:<a> Davao del Sur </a><br>
+                                            Home Address:<a> Block 9 Lot 24 WellSpring Village Phase 3 </a>
+                                        </p>
+                                    </center>
+                                    <p>
+                                        Permanent Address:
+                                    </p>
+                                    <center>
+                                        <p>
+                                            KM. Number:<a> KM. 12 </a>Street:<a> Narra Street </a>Postal Code:<a> 8000 </a><br>
+                                            Barangay:<a> Catalunan Pequeño </a>City/Town/Municipality:<a> Davao City </a>Province:<a> Davao del Sur </a><br>
+                                            Home Address:<a> Block 9 Lot 24 WellSpring Village Phase 3 </a>
+                                        </p>
+                                    </center>
+                                </content>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div id="Recent_work_fuction">
                         <center>
                             <header class="headerrecentwork" >
                             <h2>
