@@ -85,6 +85,7 @@ a {
 
 .firstHeader h1 {
     font-size: 40;
+    text-shadow: 2px 2px 5px whitesmoke;
 }
 
 .firstHeader{
@@ -219,9 +220,10 @@ a {
 
 .info b {
     background-color: rgb(38, 53, 67);
-    padding: 0% 60% 0% 40%;
-    font-size: 50;
+    padding: 0% 65% 0% 35%;
+    font-size:60;
     color: #5679ED;
+    text-shadow: 2px 2px 5px darkgrey;
     
 }
 
@@ -270,9 +272,10 @@ a {
 /* About Page */
 
 .about b {
+    text-shadow: 2px 2px 5px darkgray;
     background-color: rgb(38, 53, 67);
-    padding: 0% 57% 0% 43%;
-    font-size: 50;
+    padding: 0% 60% 0% 40%;
+    font-size: 60;
     color: #5679ED;
 }
 
