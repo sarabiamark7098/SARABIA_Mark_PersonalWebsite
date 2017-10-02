@@ -203,8 +203,23 @@ a {
 
 /* Information Page */
 
+#My_Information_function,
+#Goal_Motto_function,
+#Family_function,
+#Friends_function,
+#Groups_function,
+#Recent_work_function,
+#Address_function {
+    margin-top: 20px;
+    margin-right: 250px;
+    float: right;
+    width: 500px;
+    height: 380px;
+    border: 3px solid black;
+}
+
 .outerlayer_button_info {
-    margin-left: 100px;    
+    padding-left: 100px;    
 }
 
 .innerlayer_button_info {
@@ -218,6 +233,9 @@ a {
     margin: 0px 2px;
     width: 150px;
     padding: 10px;
+}
+.div_Footer {
+    margin: 347px 0px 0px 0px;
 }
 
 .info {
@@ -237,7 +255,8 @@ a {
 
 .info b {
     background-color: rgb(38, 53, 67);
-    padding: 0% 62% 0% 38%;
+    padding: 0% 40% 0% 37.5%;
+    background-color: cover;
     font-size:60;
     color: #5679ED;
     text-shadow: 2px 2px 5px darkgrey;
