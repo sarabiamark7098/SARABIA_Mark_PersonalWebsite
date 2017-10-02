@@ -203,15 +203,17 @@ a {
 
 /* Information Page */
 
-.outerlayer_button {
+.outerlayer_button_info {
     margin-left: 100px;    
 }
 
-.innerlayer_button {
+.innerlayer_button_info {
 }
 
-.innerlayer_button button{
+.innerlayer_button_info button{
     background-color: lightgreen;
+    font-size: 15;
+    font-weight: bold;
     border-radius: 5%; 
     margin: 0px 2px;
     width: 150px;
@@ -270,6 +272,25 @@ a {
     -webkit-border-radius: 5%;
 }
 
+/* About Page */
+
+.outerlayer_button_about {
+    margin-left: 15%;    
+}
+
+.innerlayer_button_about {
+}
+
+.innerlayer_button_about button{
+    background-color: lightgreen;
+    font-size: 15;
+    font-weight: bold;
+    border-radius: 5%; 
+    margin: 0px 2px;
+    width: 200px;
+    padding: 10px;
+}
+
 .about {
     background: #CAC8C8 no-repeat;
     background-size: cover;
@@ -283,8 +304,6 @@ a {
 .divAbout { 
     padding: 70px 0px;
 }
-
-/* About Page */
 
 .about b {
     text-shadow: 2px 2px 5px darkgray;
