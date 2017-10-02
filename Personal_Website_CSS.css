@@ -25,6 +25,8 @@ a {
     clear: both; 
 }
 
+/* Navigation Bar */
+
 .divNav {
     width: 100%;
     background: rgba(6, 16, 16, 0.95);
@@ -78,6 +80,8 @@ a {
     -moz-border-radius: 5%;
     -webkit-border-radius: 5%;
 }
+
+/* Home Page */
 
 .firstHeader h1 {
     font-size: 40;
@@ -148,6 +152,16 @@ a {
     padding: 0px;
 }
 
+.Top_p {
+    margin-left: 50px;
+    font-size: 25px;    
+}
+
+.Top_p p {
+    font-weight: bold;
+    padding-left: 80px;
+}
+
 .html {
     padding-top: 20px;
     width: 50%;
@@ -185,6 +199,8 @@ a {
 .section_footer {
     margin-top: 30%;
 }
+
+/* Information Page */
 
 .info {
     background: #CAC8C8 no-repeat;
@@ -251,6 +267,8 @@ a {
     padding: 70px 0px;
 }
 
+/* About Page */
+
 .about b {
     background-color: rgb(38, 53, 67);
     padding: 0% 57% 0% 43%;
@@ -303,8 +321,10 @@ a {
     -webkit-border-radius: 5%;
 }
 
+
 .contact {
-    margin-top: 5%;
+    margin-top: 0 auto  ;
+    padding: 0 auto;
 }
 
 .outerLayercontact {
@@ -321,19 +341,29 @@ a {
     background-color: gainsboro;
 }
 
+/* Contact Page */
+
+.contact {
+    padding: 10% 0%;
+    background: #CAC8C8 no-repeat;
+    height: 55%;
+    background: cover;
+}
+
 .Message {
     float: right;
-    width: 30%;
-    margin-right: 5%;
+    width: 20%;
+    margin-right: 10%;
 }
 
 .divMessage {
     text-align: center;
-    font-size: 15;
+    font-size: 15px;
 }
 
 .Getmessage {
-    height: 40%;
+    margin-top: 20%;
+    height: 65%;
     border-radius: 5%;
     -moz-border-radius: 5%;
     -webkit-border-radius: 5%;
@@ -342,9 +372,19 @@ a {
     padding: 5px;
 }
 
-.texts {
+.firstFooter_contact {
+    background: rgba(6, 16, 16, 0.95);
+    top: 50px;
 }
 
+.firstFooter_contact p {
+    padding: 10px 50px;
+    color: #ECE7E7;
+    text-align: center;
+}
 
+.section_footer_contact {
+    margin-top: 36%;
+}
 
 
