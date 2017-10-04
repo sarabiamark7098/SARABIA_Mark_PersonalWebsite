@@ -1056,4 +1056,168 @@ a {
         color: #5679ED;
         text-shadow: 2px 2px 5px darkgrey;
     }
+    /*-----------------------------------------------------*/
+    /* Contact */
+
+    .contact {
+        margin-top: 0 auto  ;
+        padding: 0 auto;
+    }
+    
+    .outerLayercontact {
+        float: none;
+        padding: 0px 0px 0px 5%;
+        width: 90%;
+    }
+    
+    .innerLayercontact {
+        margin-top: 10%;
+        border-radius: 5%;
+        -moz-border-radius: 5%;
+        -webkit-border-radius: 5%;
+        padding: 10px;
+        background-color: gainsboro;
+    }
+    .contact {
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        padding: 10% 0%;
+        background: #CAC8C8;
+        margin: 0% -.05%;
+        height: 155%;
+        background: cover;
+    }
+    
+    .Message {
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        width: 60%;
+        margin-right: 20%;
+    }
+    
+    .divMessage {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .divMessage button {
+        margin-top: 3%;
+        width: 30%;
+        height: 10%;
+    }
+
+    .Getmessage div input {
+        padding: 1%;
+    }
+
+    .Getmessage {
+        margin-top: 10%;
+        height: 30%;
+        border-radius: 5%;
+        -moz-border-radius: 5%;
+        -webkit-border-radius: 5%;
+        background: #827C7C;
+        background: cover;
+        padding: 5px;
+    }
+    
+    .firstFooter_contact {
+        background: rgba(6, 16, 16, 0.95);
+        margin-top: 50px;
+    }
+    
+    .firstFooter_contact p {
+        padding: 10px 50px;
+        color: #ECE7E7;
+        text-align: center;
+    }
+    
+    .sectionfootercontact {
+        margin-top: 35%;
+    }
+
+    .section_footer_contact {
+        margin-top: 71%;
+    }
+    
+    .sectiontopcontact {
+        padding: 5%;
+        margin: -7% 0% -2% 0%;    
+        padding: 0 auto;
+        background-color: #363535;
+    }
+    
+    .sectionbottomtopcontact {
+        padding: 5%;
+        background-color: #CCCCCC;
+    }
+    
+    
+    .sectionbottomcontact {
+        padding: 5%;
+        background-color: #464545;
+    }
+    .sectiontopcontact div {
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        padding-top: 10%;
+        padding: 50px;
+        width: 60%;
+        height: 30%;
+        text-align: center;
+        display: block;
+        color: #E8E3E3;
+        float: none;
+    }
+    
+    .sectionbottomtopcontact div {
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        margin-top: 5%;
+        padding: 50px;
+        width: 60%;
+        height: 30%;
+        text-align: none;
+        display: block;
+        float: none;
+    }
+    
+    .sectionbottomcontact div {
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        margin-top: 5%;
+        padding: 50px;
+        width: 60%;
+        height: 30%;
+        text-align: none;
+        display: block;
+        color: #E3D2D2;
+        float: none;
+    }
+    
+    .imagetop {
+        border: 2px solid black;
+        margin: 2% 10%;
+        float: none;
+    }
+    
+    .imagecenter {
+        border: 2px solid black;
+        margin: 2% 10%;
+        float: none;
+    }
+    
+    .imagebottom {
+        border: 2px solid black;
+        margin: 2% 10%; 
+        float: none;
+    }
+    
+    .imagetopcontact {
+        border: 2px solid black;
+        margin: 2% 10%;
+        float: none;
+    }
+    
+    .imagebottomcontact {
+        border: 2px solid black;
+        margin: 2% 10%;  
+        float: none;
+    }
+
 }
