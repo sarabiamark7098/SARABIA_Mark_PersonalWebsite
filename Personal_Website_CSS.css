@@ -297,11 +297,12 @@ a {
 }
 
 .innerlayer_button_info button{
+    border: 2px solid green;
     background-color: lightgreen;
     font-size: 15;
     font-weight: bold;
     border-radius: 5%; 
-    margin: 0px 2px;
+    margin: 5px 2px;
     width: 150px;
     padding: 10px;
 }
@@ -326,7 +327,7 @@ a {
 
 .info b {
     background-color: rgb(38, 53, 67);
-    padding: 0% 40% 0% 37.5%;
+    padding: 0% 38% 0% 37.5%;
     background-color: cover;
     font-size:60;
     color: #5679ED;
@@ -973,5 +974,86 @@ a {
     }
     /*-----------------------------------------------------------------------------------*/
     /* Information */
+    
+    #My_Information_function,
+    #Goal_Motto_function,
+    #Family_function,
+    #Friends_function,
+    #Groups_function,
+    #Recent_work_function,
+    #Address_function {
+        float: none;
+        width: 90%;
+        height: 60% auto;
+        margin: 5% auto;
+        border: 3px solid black;
+        background-color: rgba(175, 172, 172, 0.70);  
+    }
+    #Family_function {
+        font-size: 17;
+    
+    }
+    #My_Information_function {
+        font-size: 18;
+    }
+    #Recent_work_function,
+    #Goal_Motto_function {
+        font-size: 17.5;
+    }
+    
+    .outerlayer_button_info {
+        columns: 3;
+        margin-left: -10%;
+    }
+    
+    .innerlayer_button_info button{ 
+        border: 2px solid green;
+        background-color: lightgreen;
+        font-size: 15;
+        font-weight: bold;
+        border-radius: 5%; 
+        margin: 5px 5%;
+        width: 150px;
+        height: 50px;
+        padding: 0px;
+    }
+    .div_Footer {
+        margin: 0px auto;
+    }
+    
+    .My_Information.function{
+        
+    }
 
+    .info {
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        background: #CAC8C8 no-repeat;
+        width: 100%;
+        font-size: 100%;
+        color: #000305;
+        line-height: 1.5;
+    }
+    
+    .divInformation {
+        padding: 120px 0px;
+    }
+
+    .divInformation b {
+        text-align: center;
+    }
+    
+    .divInfo {
+        line-height: 1;
+        width: 73%;
+        background-color: rgb(38, 53, 67);
+        background-color: cover;
+        margin-bottom: 2%;
+    }
+
+    .info b {
+        text-align: center;
+        font-size:60;
+        color: #5679ED;
+        text-shadow: 2px 2px 5px darkgrey;
+    }
 }
