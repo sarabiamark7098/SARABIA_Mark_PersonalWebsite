@@ -70,7 +70,7 @@ a {
 }
 
 #navigation a:hover, #navigation a:active,
-#navigation .active a:link, #navigation #active a:visited {
+#navigation #active a:link, #navigation #active a:visited {
     background-color: #DA3B64;
     text-shadow: none;
 }
@@ -262,6 +262,14 @@ a {
 
 /* Information Page */
 
+.profileImage img {
+    margin-top: 50px;
+    float: left;
+    margin-left: 10%;
+    width: 20%;
+    height: 45%;
+}
+
 #My_Information_function,
 #Goal_Motto_function,
 #Family_function,
@@ -279,8 +287,8 @@ a {
 }
 #Family_function {
     font-size: 17;
-
 }
+
 #My_Information_function {
     font-size: 18;
 }
@@ -289,8 +297,15 @@ a {
     font-size: 17.5;
 }
 
+.bsitwork img {
+    margin: 70px 0px 0px 70px;
+    width: 30%;
+    height: 40%;
+    float: left;
+}
+
 .outerlayer_button_info {
-    padding-left: 100px;
+    padding-left: 100px;    
 }
 
 .innerlayer_button_info {
@@ -420,10 +435,15 @@ a {
 }
 
 .leftabouthtml {
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.abouthtmlleft p strong, .abouthtmlright p strong {
+    font-size: 20px;
 }
 
 .abouthtmlleft {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 16px;
     margin-top: 30px;
     background-color: rgba(227, 227, 227, 0.60);
     border: 2px solid black;
@@ -438,10 +458,11 @@ a {
 }
 
 .righthtmlabout {
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
 .abouthtmlright {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 16px;
     margin-top: 15px;
     background-color: rgba(227, 227, 227, 0.60);
     border: 2px solid black;
@@ -637,6 +658,10 @@ a {
 }
 
 .section_footer_contact {
+    margin-top: 35%;
+}
+
+.sectionfootercontact {
     margin-top: 35%;
 }
 
@@ -1019,10 +1044,6 @@ a {
     }
     .div_Footer {
         margin: 0px auto;
-    }
-    
-    .My_Information.function{
-        
     }
 
     .info {
